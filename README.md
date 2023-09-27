@@ -16,3 +16,8 @@ sudo apt install xdotool xbindkeys
 
 ## Install manually
 TBD
+
+## Changing the default shortcut
+1. Open up ~/.xbindkeysrc
+2. Find the line that contains "timestamp_kb_shortcut.sh"
+3. On the next line is the shortcut (default is F10). Change this line to whatever you want
